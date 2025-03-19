@@ -4,7 +4,7 @@ A simple web application that displays an updated collection of streaming sites.
 
 ## Website
 
-[https://streaming-directory.vercel.app](https://streaming-directory.vercel.app)
+[StreamingDirectory](https://arrowar.github.io/StreamingDirectory/)
 
 ## Features
 

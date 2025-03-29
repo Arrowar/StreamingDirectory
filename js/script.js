@@ -42,10 +42,6 @@ async function loadSiteData() {
         const siteTitle = document.createElement('h3');
         siteTitle.textContent = siteName;
 
-        const siteDomain = document.createElement('p');
-        siteDomain.className = 'domain';
-        siteDomain.textContent = site.domain.replace(/^https?:\/\//, '');
-
         // Add old domain info if available
         if (site.old_domain) {
           const oldDomain = document.createElement('p');
@@ -72,7 +68,7 @@ async function loadSiteData() {
         siteLink.rel = 'noopener noreferrer';
 
         siteContent.appendChild(siteTitle);
-        siteContent.appendChild(siteDomain);
+        // Rimosso siteContent.appendChild(siteDomain);
         siteContent.appendChild(siteLink);
         siteItem.appendChild(siteIcon);
         siteItem.appendChild(siteContent);
